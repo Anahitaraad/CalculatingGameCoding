@@ -25,13 +25,14 @@ public class App
         anna.lastName = "Raad";
         anna.age = 14;
         anna.hobby = "programming";
+        System.out.println(anna.getInformation());
 
         Person amir = new Person();
         amir.firstName = "Amir";
         amir.lastName ="Gholami";
         amir.age = 40;
         amir.hobby = "game";
-
+        System.out.println(amir.getInformation());
 
 
             }

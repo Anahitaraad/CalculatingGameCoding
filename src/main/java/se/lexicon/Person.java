@@ -7,4 +7,9 @@ public class Person {
         int age ;
         String hobby ;
 
+        public String getInformation(){
+
+                return firstName + " " + lastName + " is " + age + " years old and likes " + hobby ;
+        }
+
 }
