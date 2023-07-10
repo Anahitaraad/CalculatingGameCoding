@@ -2,8 +2,7 @@ package se.lexicon;
 
 import java.util.Scanner;
 
-public class App
-{
+public class App {
     public static void main( String[] args ) {
 
         /*
@@ -44,17 +43,38 @@ public class App
         System.out.print("Enter the second number: ");
         int num2 = scanner.nextInt();
 
+        System.out.print("Enter the first number: ");
+        int num3 = scanner.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int num4 = scanner.nextInt();
+
+        System.out.print("Enter the first number: ");
+        int num5 = scanner.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int num6 = scanner.nextInt();
+
+        System.out.print("Enter the first number: ");
+        int num7 = scanner.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int num8 = scanner.nextInt();
+
+
         int sum = num1 + num2;
-        int multiplication = num1 * num2;
-        int division = num1 / num2;
-        int subtraction = num1 - num2;
+        int multiplication = num3 * num4;
+        int division = num5 / num6;
+        int subtraction = num7 - num8;
 
         System.out.println(num1 + " + " + num2 + " = " + sum);
-        System.out.println(num1 + " * " + num2 + " = " + multiplication);
-        System.out.println(num1 + " / " + num2 + " = " + division);
-        System.out.println(num1 + " - " + num2 + " = " + subtraction);
+        System.out.println(num3 + " * " + num4 + " = " + multiplication);
+        System.out.println(num5 + " / " + num6 + " = " + division);
+        System.out.println(num7 + " - " + num8 + " = " + subtraction);
 
     }
+
+
 }
 
 
